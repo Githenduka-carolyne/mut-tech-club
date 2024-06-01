@@ -1,6 +1,10 @@
+import HeroPart from "./HeroPart";
+import "./HeroPart.css";
 const home = () => {
   return (
-  <h1>Home</h1>
-  );
-}
+  <section className="home">
+    <HeroPart />
+  </section>
+  )
+};
 export default home;
