@@ -1,4 +1,7 @@
 const events = () =>{
-    return <h1>Events</h1>;
+    return(
+
+       <h1>Events</h1> 
+    ) 
 }
 export default events;
