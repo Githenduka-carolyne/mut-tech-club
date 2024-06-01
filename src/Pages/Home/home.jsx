@@ -1,7 +1,7 @@
 import HeroPart from "./HeroPart";
 import AboutPart from "./AboutPart";
 import TestimonialPart from "./TestimonialPart";
-import "./TestimonialPart.css"
+import "./testimonial.css"
 import "./HeroPart.css";
 import "./about.css";
 const home = () => {

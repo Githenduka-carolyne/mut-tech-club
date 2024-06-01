@@ -1,0 +1,72 @@
+.testmonies-section{
+background-color: #697b8a;
+}
+
+.testimonial{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-title{   
+    font-size: 50px;
+    padding-top: 10px;
+    font-family: "Playfair Display", serif;
+    color: var(--color-white);
+}
+.testimonial-description {
+    font-size: 15px;
+    
+}
+
+.testimonial-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.testimonial-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 220px;
+    height: 220px;
+    font-size: 10px;
+    background-color: var(--color-white);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+
+}
+.persona-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    
+}
+.testimonial-card:hover .persona-info {
+    transform: rotateY(180deg);
+}
+.title{
+    font-size: 15px;
+}
+.role{
+    font-size: 12px;
+}
+.testimonie{
+    display: grid;
+    place-content: center;
+    padding:20px;
+    transform: rotateY(180deg);
+}
+.persona-info, .testimonie{
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}

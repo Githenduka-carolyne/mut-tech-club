@@ -1,6 +1,7 @@
 .about-section{
-    background-color: #697B8A;
+    background-color: #374e62;
 }
+
 .about-textbox {
     display: grid;
     place-content: center;

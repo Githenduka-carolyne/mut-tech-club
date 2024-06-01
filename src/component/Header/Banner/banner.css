@@ -1,0 +1,27 @@
+.banner-part{
+    height: 50vh;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/hero-section-image.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-content: center;
+}
+.banner-part h2{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 6rem;
+}
+.banner-part h2{
+     animation: 2s slide-right .1s forwards;
+    transform: translateX(-190%);
+}
+.banner-part p{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 2.5px;
+}

@@ -1,5 +1,6 @@
 const AboutPart = () =>{
     return (
+
       <section class="about-section">
         <div className="about-textbox">
           <h2>About us:</h2>
