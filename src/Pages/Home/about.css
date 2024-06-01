@@ -1,0 +1,49 @@
+.about-section{
+    background-color: #697B8A;
+}
+.about-textbox {
+    display: grid;
+    place-content: center;
+}
+
+.about-textbox h2{
+    font-size: 50px;
+    padding-top: 15px;
+    text-transform: capitalize;
+    font-family: "Playfair Display", serif;
+    color: var(--color-white);
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 250px;
+    font-size: 13px;
+    background-color: var(--color-white);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+.card-title {
+    display: grid;
+    place-content: center;
+    padding:20px;
+    color: #06233C;
+}
+
+.card-description {
+    display: grid;
+    place-content: center;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+    font-family: "Playfair Display", serif;
+    
+}
