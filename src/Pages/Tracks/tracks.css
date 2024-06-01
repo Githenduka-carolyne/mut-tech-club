@@ -1,0 +1,64 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 10px;
+    justify-content: space-around;  
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: var(--color-black);   
+}
+
+.trackss-image{
+    margin-top: 10px;
+    display: grid;
+    place-content: center;   
+}
+
+.trackss-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.trackss-details h2{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+.trackss-details p{
+    padding: 15px;
+    font-size: 13px;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+.tracks-button{
+    display: grid;
+    place-content: center;
+}
+.btn{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+    background-color: #06233C;
+    color: var(--color-white);
+    font-size: 15px;
+}
+.btn:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+.trackss-section{
+    background-color: #06233C;
+}
