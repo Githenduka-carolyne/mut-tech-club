@@ -52,7 +52,7 @@ legend{
     font-size: 15px;
 }
 form input,
-form textarea{
+form textarea, .choices{
     width: 80%;
     border: 0;
     outline: none;
