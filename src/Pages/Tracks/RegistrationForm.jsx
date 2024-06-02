@@ -22,6 +22,7 @@ const RegistrationForm = () =>{
                                 <option value="UI/UX Design">UI/UX Design</option>
                                 <option value="Power Platform">Power Platform</option>
                                 <option value="Mobile App Dev">Mobile App Dev</option>
+                                <option value="Cloud Engineering">Cloud Engineering</option>
                                 </select>
                             <button type="submit" class="btn2">submit</button>
                         </fieldset>      
