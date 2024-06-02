@@ -14,7 +14,7 @@ const TestimonialPart = () => {
       <div className="testimonial-container">
         <div className="testimonial-card">
           <div class="testimonial-details">
-            <img className="img2" src="./src/assets/cybersecurityImg.jpg"></img>
+            <img src={"/src/assets/cybersecurityImg.jpg"}></img>
           </div>
           <div className="persona-info">
             <p class="title">John Doe</p>
@@ -42,7 +42,7 @@ const TestimonialPart = () => {
 
         <div className="testimonial-card">
           <div class="testimonial-details">
-            <img className="img2" src="./src/assets/cybersecurityImg.jpg"></img>
+            <img src={"/src/assets/cybersecurityImg.jpg"}></img>
           </div>
           <div className="persona-info">
             <p class="title">Dennis Doe</p>
@@ -70,7 +70,7 @@ const TestimonialPart = () => {
 
         <div className="testimonial-card">
           <div class="testimonial-details">
-            <img className="img" src="./src/assets/cybersecurityImg.jpg"></img>
+            <img src={"/src/assets/cybersecurityImg.jpg"}></img>
           </div>
           <div className="persona-info">
             <p class="title">Francis Kimani</p>

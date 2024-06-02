@@ -52,11 +52,8 @@
 
     
 .leader-photo{
-    height: 15rem;
-   
-    
-    /* display: block; */
-    /* place-content: center; */
+    display: grid;
+    place-content: center;
 
 }
 .leader-photo img{
@@ -64,7 +61,7 @@
     height: 100%;
     display: block;
     object-fit: cover;
-    margin-left: 75px;
+    
     /* clip-path: circle(50% at 50% 50%); */
    
 }

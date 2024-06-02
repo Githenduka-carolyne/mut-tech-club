@@ -3,7 +3,7 @@ const RegistrationForm = () =>{
         <div className="register-form">
             <div class="row">
                 <div className="image-side">
-                    <img className = "register-image" src="./src/assets/registerImg.jpg"></img>
+                    <img className = "register-image" src={"/src/assets/registerImg.jpg"}></img>
                 </div>    
                 <div className="register-side">
                     <h2 class ="form-title">Registration Form </h2>    
