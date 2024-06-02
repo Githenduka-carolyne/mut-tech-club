@@ -6,7 +6,7 @@ import Leadership from "./Pages/Leadership/leadership.jsx"
 import Tracks from "./Pages/Tracks/tracks.jsx";
 import Events from "./Pages/Events/events.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import Footer from "./component/Header/footer/Footerpath.jsx";
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
           <Route path="/tracks" element={<Tracks />} />
           <Route path="/events" element={<Events />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

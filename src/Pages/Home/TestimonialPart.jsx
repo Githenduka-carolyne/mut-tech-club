@@ -48,7 +48,7 @@ const TestimonialPart = () => {
             <img src={bridget}></img>
           </div>
           <div className="persona-info">
-            <p class="title">Dennis Doe</p>
+            <p class="title">Mary Doe</p>
             <p class="role">Cyber Security(alumni)</p>
           </div>
           <div className="testimonie">
