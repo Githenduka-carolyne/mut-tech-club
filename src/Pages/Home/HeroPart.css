@@ -18,6 +18,12 @@
     gap: 2rem;
     line-height: 7.5rem;
 }
+@media screen and(max-width:31.81em) {
+    .hero-textbox{
+        line-height: 5rem;
+    }
+}
+
 
 .hero-maintitle {
     text-transform: capitalize;
@@ -29,6 +35,11 @@
     font-size: 7.8rem;
 
 }
+@media screen and (max-width:38.68em) {
+.hero-maintitle{
+    font-size: 3rem;
+  }
+}  
 .hero-textbox{
     overflow: hidden;
     width: 100%;
@@ -40,7 +51,12 @@
     color: white;
     font-size: 3rem;
     letter-spacing: 1.5px;
+}
 
+@media screen and (max-width:33.62em) {
+    .hero-subtitle {
+        font-size: 2rem;
+    }
 }
 .hero-paragraph {
     text-align: center;

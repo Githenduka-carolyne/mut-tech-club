@@ -5,6 +5,17 @@ justify-content: space-around;
 align-items: center;
 gap: 5rem;
 }
+
+
+@media screen and (max-width:58.81em) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+
 .image-side{
     flex-basis: 50%;
     width: 100%;
@@ -21,6 +32,8 @@ gap: 5rem;
     transition: transform .2s;
     
 }
+
+
 .register-image:hover{
     transform: scale(1.1);
    

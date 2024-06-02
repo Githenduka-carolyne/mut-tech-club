@@ -5,8 +5,8 @@ const leadership = () =>{
       return (
         <React.Fragment>
           <Bannerpart
-            maintitle="Our Leadership Team"
-            description="Dedicated team behind Murang'a University Tech Club (MUTC)."
+            maintitle="Club's Leaders"
+            description="Team behind Murang'a University Tech Club (MUTC)."
           /> 
 
           <section className="leader-section">

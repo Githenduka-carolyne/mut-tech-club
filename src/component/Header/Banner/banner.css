@@ -15,6 +15,14 @@
     color: white;
     font-size: 6rem;
 }
+@media screen and (max-width:33.87em) {
+    .banner-part h2{
+        font-size: 5rem;
+    }
+    
+}
+
+
 .banner-part h2{
      animation: 2s slide-right .1s forwards;
     transform: translateX(-190%);
