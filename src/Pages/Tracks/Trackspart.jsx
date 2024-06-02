@@ -14,12 +14,7 @@ const Trackspart = ({ image, coursename, description }) => {
               <button className="btn">Enroll</button>  
             </div>    
         </div>  
-      </div>  
-
-
-
-    
-    
+      </div>   
   );
 };
 export default Trackspart;

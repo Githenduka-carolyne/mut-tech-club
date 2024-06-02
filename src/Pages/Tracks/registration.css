@@ -1,0 +1,68 @@
+.row{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+gap: 5rem;
+}
+.image-side{
+    flex-basis: 50%;
+    width: 100%;
+    margin-top: 43px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.register-image{
+    max-width:400px ;
+    max-height:400px ;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: transform .2s;
+    
+}
+.register-image:hover{
+    transform: scale(1.1);
+   
+}
+.register-form{
+    padding: 2rem 7rem;
+}
+.register-side{
+    flex-basis: 50%;
+        width: 100%;
+}
+.form-title{
+    font-size: 30px;
+}
+legend{
+    font-size: 15px;
+}
+form input,
+form textarea{
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: #DCDCDC;
+    padding: 15px;
+    margin: 4px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.btn2 {
+    padding: 12px;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+    background-color: #06233C;
+    color: var(--color-white);
+    font-size: 15px;
+    margin: 5px;
+}
+
+.btn2:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+

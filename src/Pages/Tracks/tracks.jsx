@@ -1,5 +1,6 @@
 import Bannerpart from "../../component/Header/Banner/Bannerpart/";
 import Trackspart from "./Trackspart";
+import RegistrationForm from "./RegistrationForm";
 import cybersecurity from "../../assets/cybersecurityImg.jpg"
 import UIUXdesign  from "../../assets/uiuxImg.jpg"
 import Webdevelopment from "../../assets/webdevImg.jpg";
@@ -7,6 +8,7 @@ import Mobileappsdevelopment from "../../assets/mobileappdevImg.jpg";
 import Cloudengineering from "../../assets/cloudengImg.jpg";
 import PowerPlatform from "../../assets/powerplatformImg.jpg";
 import "./tracks.css"
+import "./registration.css"
 const tracks = () => {
   return (
     <section className="track-section">
@@ -108,8 +110,16 @@ const tracks = () => {
             Platform, enabling them to transform organizational operations and improve efficiency."
           />
         </section>
-      </section>  
+
+        </section> 
+            <div className="register">
+              <RegistrationForm />
+            </div>
+        <section>
+
+      </section> 
     </section>
+    
   );
 };
 export default tracks;
