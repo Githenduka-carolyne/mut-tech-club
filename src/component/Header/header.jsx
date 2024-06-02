@@ -3,7 +3,7 @@ const header = () =>{
     return (
       <header className="header">
         <div className="logo">
-          <img src="./src/assets/mut-logo-.png"></img>
+          <img className="img2"src="./src/assets/mut-logo-.png"></img>
         </div>
         <nav className="navigation">
           <div className="navigation-side">

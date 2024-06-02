@@ -70,6 +70,13 @@
 
     
 }
+
+.testimonial-details {
+    margin-top: 10px;
+    display: grid;
+    place-content: center;
+
+}
 .profile-pic{
     max-width: 300px;
     max-height: 200px;

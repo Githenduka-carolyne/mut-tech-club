@@ -14,93 +14,84 @@ const TestimonialPart = () => {
       <div className="testimonial-container">
         <div className="testimonial-card">
           <div class="testimonial-details">
-            <img
-              className="profile-pic"
-              src="./src/assets/cybersecurityImg.jpg"
-            ></img>
-            <div className="persona-info">
-              <p class="title">John Doe</p>
-              <p class="role">Web Developer</p>
-            </div>
-            <div className="testimonie">
-              <p>
-                <i>
-                  "Being a part of the web Development track,I gained practical
-                  skills through capture-the-flag competitions and workshops led
-                  by industry experts.The experience not only enhanced my resume
-                  but also gave me confidence in pursuing a career in Web
-                  Development."
-                </i>
-              </p>
-              <div className="stars">
-                <IoStarSharp />
-                <IoStarSharp />
-                <IoStarSharp />
-                <IoStarSharp />
-                <IoStarSharp />
-              </div>
+            <img className="img2" src="./src/assets/cybersecurityImg.jpg"></img>
+          </div>
+          <div className="persona-info">
+            <p class="title">John Doe</p>
+            <p class="role">Web Developer</p>
+          </div>
+          <div className="testimonie">
+            <p>
+              <i>
+                "Being a part of the web Development track,I gained practical
+                skills through capture-the-flag competitions and workshops led
+                by industry experts.The experience not only enhanced my resume
+                but also gave me confidence in pursuing a career in Web
+                Development."
+              </i>
+            </p>
+            <div className="stars">
+              <IoStarSharp />
+              <IoStarSharp />
+              <IoStarSharp />
+              <IoStarSharp />
+              <IoStarSharp />
             </div>
           </div>
         </div>
 
         <div className="testimonial-card">
           <div class="testimonial-details">
-            <img
-              className="profile-pic"
-              src="./src/assets/cybersecurityImg.jpg"
-            ></img>
-            <div className="persona-info">
-              <p class="title">Dennis Doe</p>
-              <p class="role">Cyber Security(alumni)</p>
-            </div>
-            <div className="testimonie">
-              <p>
-                <i>
-                  "Being a part of the MUT Tech club under track Cybersecurity
-                  Club, I gained practical skills through capture-the-flag
-                  competitions and workshops led by industry experts. The
-                  experience not only enhanced my resume but also gave me
-                  confidence in pursuing a career in cybersecurity."
-                </i>
-              </p>
-              <div className="stars">
-                <IoStarSharp />
-                <IoStarSharp />
-                <IoStarSharp />
-                <IoStarSharp />
-                <IoStarSharp />
-              </div>
+            <img className="img2" src="./src/assets/cybersecurityImg.jpg"></img>
+          </div>
+          <div className="persona-info">
+            <p class="title">Dennis Doe</p>
+            <p class="role">Cyber Security(alumni)</p>
+          </div>
+          <div className="testimonie">
+            <p>
+              <i>
+                "Being a part of the MUT Tech club under track Cybersecurity
+                Club, I gained practical skills through capture-the-flag
+                competitions and workshops led by industry experts. The
+                experience not only enhanced my resume but also gave me
+                confidence in pursuing a career in cybersecurity."
+              </i>
+            </p>
+            <div className="stars">
+              <IoStarSharp />
+              <IoStarSharp />
+              <IoStarSharp />
+              <IoStarSharp />
+              <IoStarSharp />
             </div>
           </div>
         </div>
 
         <div className="testimonial-card">
           <div class="testimonial-details">
-            <img
-              className="profile-pic"
-              src="./src/assets/cybersecurityImg.jpg"
-            ></img>
-            <div className="persona-info">
-              <p class="title">Francis Kimani</p>
-              <p class="role">Mobile Developer</p>
-            </div>
-            <div className="testimonie">
-              <p>
-                <i>
-                  "Being a part of the Mobile Development track, I gained
-                  practical skills through capture-the-flag competitions and
-                  workshops led by industry experts. The experience not only
-                  enhanced my resume but also gave me confidence in pursuing a
-                  career in Mobile Development."
-                </i>
-              </p>
-              <div className="stars">
-                <IoStarSharp />
-                <IoStarSharp />
-                <IoStarSharp />
-                <IoStarSharp />
-                <IoStarSharp />
-              </div>
+            <img className="img" src="./src/assets/cybersecurityImg.jpg"></img>
+          </div>
+          <div className="persona-info">
+            <p class="title">Francis Kimani</p>
+            <p class="role">Mobile Developer</p>
+          </div>
+          <div className="testimonie">
+            <p>
+              <i>
+                "Being a part of the Mobile Development track, I gained
+                practical skills through capture-the-flag competitions and
+                workshops led by industry experts. The experience not only
+                enhanced my resume but also gave me confidence in pursuing a
+                career in Mobile Development."
+              </i>
+            </p>
+            <div className="stars">
+              <IoStarSharp />
+              <IoStarSharp />
+              <IoStarSharp />
+              <IoStarSharp />
+              <IoStarSharp />
             </div>
           </div>
         </div>

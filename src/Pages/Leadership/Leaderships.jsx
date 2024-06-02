@@ -10,7 +10,7 @@ const Leaderships = () => {
       <div className="card-wrapper">
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img src="./src/assets/trial2.jpeg" alt="Dr John Ndia photo" />
+            <img className="img2" src="./src/assets/trial2.jpeg" alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -34,7 +34,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info-white">
           <div className="leader-photo">
-            <img src="./src/assets/victory.jpg" alt="Dr John Ndia photo" />
+            <img className="img2"src="./src/assets/victory.jpg" alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -57,7 +57,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img src="./src/assets/allan.jpg" alt="Dr John Ndia photo" />
+            <img className="img2" src="./src/assets/allan.jpg" alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -78,7 +78,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info-white">
           <div className="leader-photo">
-            <img src="./src/assets/bridget.jpeg" alt="Dr John Ndia photo" />
+            <img className="img2" src="./src/assets/bridget.jpeg" alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -99,7 +99,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img src="./src/assets/ruth.jpg" alt="Dr John Ndia photo" />
+            <img className="img2"src="./src/assets/ruth.jpg" alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -120,7 +120,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info-white">
           <div className="leader-photo">
-            <img src="./src/assets/male5.jpeg" alt="Dr John Ndia photo" />
+            <img className="img2"src="./src/assets/male5.jpeg" alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -143,7 +143,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img src="./src/assets/manase.jpeg" alt="Dr John Ndia photo" />
+            <img className="img2" src="./src/assets/manase.jpeg" alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -166,7 +166,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info-white">
           <div className="leader-photo">
-            <img src="./src/assets/me.jpg" alt="Dr John Ndia photo" />
+            <img className="img2" src="./src/assets/me.jpg" alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -189,7 +189,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img src="./src/assets/male3.jpeg" alt="Dr John Ndia photo" />
+            <img className="img2" src="./src/assets/male3.jpeg" alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -212,7 +212,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img src="./src/assets/male4.jpeg" alt="Dr John Ndia photo" />
+            <img className= "img2"src="./src/assets/male4.jpeg" alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -235,7 +235,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img src="./src/assets/woman1.jpeg" alt="Dr John Ndia photo" />
+            <img className="img2" src="./src/assets/woman1.jpeg" alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
