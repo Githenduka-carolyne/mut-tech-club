@@ -1,7 +1,7 @@
 import { IoStarSharp } from "react-icons/io5";
 import allan from "../../assets/allan.jpg";
-import bridget from "../../assets/bridget.jpeg";
 import manase from "../../assets/manase.jpeg";
+import miriam from "../../assets/miriam.jpeg";
 const TestimonialPart = () => {
   return (
     <section className="testmonies-section">
@@ -45,10 +45,10 @@ const TestimonialPart = () => {
 
         <div className="testimonial-card">
           <div class="testimonial-details">
-            <img src={bridget}></img>
+            <img src={miriam}></img>
           </div>
           <div className="persona-info">
-            <p class="title">Mary Doe</p>
+            <p class="title">Miriam Mugure</p>
             <p class="role">Cyber Security(alumni)</p>
           </div>
           <div className="testimonie">
