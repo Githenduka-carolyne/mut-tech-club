@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import logo from "../../assets/mut-logo-.png"
 const header = () =>{
     return (
       <header className="header">
         <div className="logo">
-          <img src={"/src/assets/mut-logo-.png"}></img>
+          <img src={logo}></img>
         </div>
         <nav className="navigation">
           <div className="navigation-side">

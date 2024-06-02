@@ -1,4 +1,7 @@
 import { IoStarSharp } from "react-icons/io5";
+import allan from "../../assets/allan.jpg";
+import bridget from "../../assets/bridget.jpeg";
+import manase from "../../assets/manase.jpeg";
 const TestimonialPart = () => {
   return (
     <section className="testmonies-section">
@@ -14,7 +17,7 @@ const TestimonialPart = () => {
       <div className="testimonial-container">
         <div className="testimonial-card">
           <div class="testimonial-details">
-            <img src={"/src/assets/cybersecurityImg.jpg"}></img>
+            <img src={allan}></img>
           </div>
           <div className="persona-info">
             <p class="title">John Doe</p>
@@ -42,7 +45,7 @@ const TestimonialPart = () => {
 
         <div className="testimonial-card">
           <div class="testimonial-details">
-            <img src={"/src/assets/cybersecurityImg.jpg"}></img>
+            <img src={bridget}></img>
           </div>
           <div className="persona-info">
             <p class="title">Dennis Doe</p>
@@ -70,7 +73,7 @@ const TestimonialPart = () => {
 
         <div className="testimonial-card">
           <div class="testimonial-details">
-            <img src={"/src/assets/cybersecurityImg.jpg"}></img>
+            <img src={manase}></img>
           </div>
           <div className="persona-info">
             <p class="title">Francis Kimani</p>

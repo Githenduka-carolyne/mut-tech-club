@@ -3,6 +3,17 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
+import drNdia from "../../assets/drNdia.jpeg";
+import victory from "../../assets/victory.jpg";
+import allan from "../../assets/allan.jpg";
+import bridget from "../../assets/bridget.jpeg";
+import ruth from "../../assets/ruth.jpg";
+import webster from "../../assets/webster.jpeg";
+import manase from "../../assets/manase.jpeg";
+import me from "../../assets/me.jpg";
+import stanley from "../../assets/stanley.jpeg";
+import paul from "../../assets/paul.jpeg";
+import evyonn from "../../assets/evyonn.jpeg";
 
 const Leaderships = () => {
   return (
@@ -10,7 +21,7 @@ const Leaderships = () => {
       <div className="card-wrapper">
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img src={"/src/assets/trial2.jpeg"} alt="Dr John Ndia photo" />
+            <img src={drNdia} alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -21,7 +32,7 @@ const Leaderships = () => {
             <h3 className="name">Dr. John Ndia</h3>
             <h3 className="role">Patron</h3>
           </div>
-          <div>  
+          <div>
             <p className="bio">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
               odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -34,7 +45,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info-white">
           <div className="leader-photo">
-            <img src={"/src/assets/victory.jpg"} alt="Dr John Ndia photo" />
+            <img src={victory} alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -57,7 +68,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img src={"/src/assets/allan.jpg"} alt="Dr John Ndia photo" />
+            <img src={allan} alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -78,7 +89,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info-white">
           <div className="leader-photo">
-            <img  src={"/src/assets/bridget.jpeg"} alt="Dr John Ndia photo" />
+            <img src={bridget} alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -99,7 +110,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img src={"/src/assets/ruth.jpg"} alt="Dr John Ndia photo" />
+            <img src={ruth} alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -120,7 +131,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info-white">
           <div className="leader-photo">
-            <img src={"/src/assets/male5.jpeg"} alt="Dr John Ndia photo" />
+            <img src={webster} alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -143,7 +154,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img src={"/src/assets/manase.jpeg"} alt="Dr John Ndia photo" />
+            <img src={manase} alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -166,7 +177,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info-white">
           <div className="leader-photo">
-            <img src={"/src/assets/me.jpg"} alt="Dr John Ndia photo" />
+            <img src={me} alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -189,7 +200,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img  src={"/src/assets/male3.jpeg"} alt="Dr John Ndia photo" />
+            <img src={stanley} alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -212,7 +223,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img src={"/src/assets/male4.jpeg"} alt="Dr John Ndia photo" />
+            <img src={paul} alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
@@ -235,7 +246,7 @@ const Leaderships = () => {
 
         <div className="leader-card-info">
           <div className="leader-photo">
-            <img  src={"/src/assets/woman1.jpeg"} alt="Dr John Ndia photo" />
+            <img src={evyonn} alt="Dr John Ndia photo" />
           </div>
           <div className="social-platforms">
             <FaLinkedin />
