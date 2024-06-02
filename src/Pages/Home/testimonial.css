@@ -1,7 +1,3 @@
-.testmonies-section{
-background-color: #697b8a;
-}
-
 .testimonial{
     padding: 0 20px;
     display: flex;
@@ -13,7 +9,7 @@ background-color: #697b8a;
     font-size: 50px;
     padding-top: 10px;
     font-family: "Playfair Display", serif;
-    color: var(--color-white);
+    color: #06233C;
 }
 .testimonial-description {
     font-size: 15px;
@@ -26,16 +22,19 @@ background-color: #697b8a;
     justify-content: center;
     gap: 2rem;
     
+    
 }
 .testimonial-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 220px;
-    height: 220px;
+    width: 300px;
+    height: 500px;
     font-size: 10px;
-    background-color: var(--color-white);
+    background-color: #06233C;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    color: var(--color-white);
+    transition: .2s;
     
 
 }
@@ -44,29 +43,46 @@ background-color: #697b8a;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    position: relative;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+    gap: 1rem;  
+}
+.testimonial-card:hover{
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+.title{
+    font-size: 20px;
+    margin-top: 20px;
     
 }
-.testimonial-card:hover .persona-info {
-    transform: rotateY(180deg);
-}
-.title{
-    font-size: 15px;
-}
 .role{
-    font-size: 12px;
+    font-size: 15px;
+    
 }
 .testimonie{
     display: grid;
     place-content: center;
     padding:20px;
-    transform: rotateY(180deg);
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    font-size: 10px;
+    
+
+    
 }
-.persona-info, .testimonie{
-    position: absolute;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+.profile-pic{
+    max-width: 300px;
+    max-height: 200px;
+    display: block;
+    object-fit: cover;
+}
+.stars{
+    display: grid;
+    place-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-size: 20px;
+    color: orange;
+    
 }

@@ -54,3 +54,17 @@ img{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+/* @media screen and (max-width:42.93em ) {
+    img {
+        max-width: 120px;
+        max-height: 120px;
+        padding-left: 10px;
+            }
+    }
+    .navigation-list-item a{
+        font-size: 15px;
+    }
+    .header-button{
+        font-size: 12px;
+        padding: 12px;
+} */
